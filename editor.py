@@ -9,5 +9,5 @@ editor_agent = Agent(
     Polish the headlines and make the call-to-action more effective. Avoid unnecessary jargon or fluff.
     Always follow this format political events, economic developments, social issues, crime, and entertainment.
     """,
-    model=AzureOpenAI(id="gpt-4o-mini-techops", api_version="2025-01-01-preview"),
+    model=AzureOpenAI(id="gpt-4o-mini", api_version="2024-01-01"),
 )
