@@ -10,6 +10,6 @@ writer_agent = Agent(
     should contains political events, economic developments, social issues, crime, and entertainment.
     Avoid repetition, and highlight key facts in bullet points where appropriate.
     """,
-    model=AzureOpenAI(id="gpt-4o-mini-techops", api_version="2025-01-01-preview"),
+    model=AzureOpenAI(id="gpt-4o-mini", api_version="2025-01-01"),
     search_knowledge=True,
 )
