@@ -10,8 +10,8 @@ agent_team = Team(
     name="Discussion Team",
     mode="collaborate",
     model=AzureOpenAI(
-        id="gpt-4o-mini-techops",
-        api_version="2025-01-01-preview"
+        id="gpt-4o-mini",
+        api_version="2024-01-01"
     ),
     members=[
         research_agent,
