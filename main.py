@@ -10,8 +10,8 @@ agent_team = Team(
     name="Discussion Team",
     mode="collaborate",
     model=AzureOpenAI(
-        id="gpt-4o-mini",
-        api_version="2024-01-01"
+        id="gpt-4o-mini-techops",
+        api_version="2025-01-01-preview"
     ),
     members=[
         research_agent,
@@ -21,10 +21,9 @@ agent_team = Team(
     ],
     instructions=["you are a newletter company Name:- ExpressNews and you are going to write a detailed newsletter for 3-4 lines about every latest news in the world",
                   "Don't add date in the newsletter",
-                  "Search for the latest news in the world",
-                  "Write a newsletter about the latest news in the world",
+                  "Search for the latest news in the world, 3 news for each category in detail: political events, economic developments, social issues, crime, and entertainment.",
                   "Proofread the newsletter and improve flow",
-                  "Personalise the newsletter based on reader preferences (political events, economic developments, social issues, crime, and entertainment.)",
+                  "Personalise the newsletter based on reader preferences (political events, economic developments, social issues, crime, and entertainment)",
                 ],
     show_tool_calls=False,
     markdown=True,
