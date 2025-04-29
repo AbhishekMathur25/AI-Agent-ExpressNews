@@ -24,7 +24,7 @@ agent_team = Team(
                   "Search for the latest news in the world",
                   "Write a newsletter about the latest news in the world",
                   "Proofread the newsletter and improve flow",
-                  "Personalise the newsletter based on reader preferences (tech, politics, entertainment, etc.)",
+                  "Personalise the newsletter based on reader preferences (political events, economic developments, social issues, crime, and entertainment.)",
                 ],
     show_tool_calls=False,
     markdown=True,
