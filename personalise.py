@@ -8,5 +8,5 @@ personalisation_agent = Agent(
     rewrite or reorder the newsletter content to fit the user's interest. 
     If no clear preference is given, keep a balanced mix.
     """,
-    model=AzureOpenAI(id="gpt-4o-mini-techops", api_version="2025-01-01-preview"),
+    model=AzureOpenAI(id="gpt-4o-mini", api_version="2025-01-01"),
 )
